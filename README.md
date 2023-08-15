@@ -20,7 +20,7 @@ During your turn, enter the row and column numbers (1-3) where you want to place
 
 # Example Gameplay
 
-'X player Name: Alice
+'X player Name: Alice'
 O player Name: Bob
 
    |   |   
