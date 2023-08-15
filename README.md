@@ -19,8 +19,8 @@ Enter the names of the two players.
 During your turn, enter the row and column numbers (1-3) where you want to place your mark.
 
 # Example Gameplay
-'''
-X player Name: Alice
+
+'X player Name: Alice
 O player Name: Bob
 
    |   |   
@@ -63,7 +63,7 @@ Enter the column number (1-3) > 3
    | X |   
 -----------
    |   | X
-'''
+'
 # Alice is win
 Future Enhancements
 This implementation provides a basic foundation for playing Tic-Tac-Toe in the terminal. Here are some ideas for future enhancements:
