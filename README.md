@@ -18,56 +18,8 @@ Run the script by entering: python tic_tac_toe.py
 Enter the names of the two players.
 During your turn, enter the row and column numbers (1-3) where you want to place your mark.
 
-# Example Gameplay
 
-'X player Name: Alice'
-O player Name: Bob
-
-   |   |   
------------
-   |   |   
------------
-   |   |   
-
-Alice
-
-Enter the row number (1-3) > 2
-Enter the column number (1-3) > 2
-
-   |   |   
------------
-   | X |   
------------
-   |   |   
-
-Bob
-
-Enter the row number (1-3) > 1
-Enter the column number (1-3) > 2
-
-   | O |   
------------
-   | X |   
------------
-   |   |   
-
-...
-
-Alice
-
-Enter the row number (1-3) > 3
-Enter the column number (1-3) > 3
-
-   | O |   
------------
-   | X |   
------------
-   |   | X
-'
-# Alice is win
-Future Enhancements
-This implementation provides a basic foundation for playing Tic-Tac-Toe in the terminal. Here are some ideas for future enhancements:
-
+# Future Enhancements
 Implement a graphical user interface (GUI) using a library like Tkinter.
 Add more sophisticated win detection algorithms to reduce repetitive code.
 Create an AI opponent for single-player gameplay.
