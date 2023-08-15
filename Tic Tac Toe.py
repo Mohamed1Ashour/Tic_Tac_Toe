@@ -58,6 +58,13 @@ def check_win ():
         return 'o'
     if game_shape[0][2] == 'o' and game_shape[1][1] == 'o' and game_shape[2][0]== 'o' : 
         return 'o'
+    
+def check_draw():
+    for row in game_shape:
+        if ' ' in row:
+            return False
+    return True
+
 Game_Board()
 
 while True:
@@ -82,6 +89,11 @@ while True:
             print(f'------------------------------------------ {player_x} is win ------------------------------------------')
             break
 
+        if check_draw():
+            print("\n")
+            print('------------------------------------------ It\'s a draw! ------------------------------------------')
+            break        
+
         while True:
             print("\n")
             print(player_o)
@@ -100,6 +112,11 @@ while True:
             print("\n")
             print(f'------------------------------------------{player_o} is win------------------------------------------')
             break
+        
+        if check_draw():
+            print("\n")
+            print('------------------------------------------ It\'s a draw! ------------------------------------------')
+            break 
 
     except :
         print("\n")
